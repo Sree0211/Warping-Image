@@ -29,6 +29,6 @@ This problem involves warping a flat image to appear as if it is the projection 
 
 ## Sample Output
 
-![Output Image]([https://example.com/demo-image.png](https://github.com/Sree0211/Warping-Image/blob/main/output/wolves2.jpg)https://github.com/Sree0211/Warping-Image/blob/main/output/wolves2.jpg)
+![Output Image](https://github.com/Sree0211/Warping-Image/blob/main/output/wolves2.jpg)
 
 
