@@ -22,7 +22,7 @@ class WarpImage
         // Working happens in the z-x plane
 
         // Focal length and radius for the cylinder
-        float f = width/2; // these can be modified based on your preference
+        float f = 10*width; // these can be modified based on your preference
         float r = width;
 
         float omega = width/2; // This is the x value for the imaginary cylinder
@@ -93,7 +93,7 @@ int main()
     WarpImage wimg;
 
     // Load the image
-    cv::Mat img = cv::imread("/Users/sreenathswaminathan/Desktop/Uni-Docs/Autonomous fahren kurs/CV Project/Warping-Image/images/n02085936_10307.jpg");
+    cv::Mat img = cv::imread("images/n02085936_10307.jpg");
 
     // Check the image
 
@@ -114,10 +114,12 @@ int main()
     cout<<" Dimension of the output image is "<<output_img.size()<<endl;
 
     string windowName = "Warp Image";
-    cv::namedWindow(windowName, cv::WINDOW_NORMAL); // Create a window
-    cv::resizeWindow(windowName,500,500);
+    cv::namedWindow(windowName, cv::WINDOW_FREERATIO); // Create a window
+    // cv::resizeWindow(windowName,500,500);
     cv::imshow(windowName, output_img); 
 
+    string output_imagePath = "/output/wolves2.jpg";
+    cv::imwrite(output_imagePath,output_img);
     cv::waitKey(0);
     cv::destroyWindow(windowName); //destroy the created window
 
