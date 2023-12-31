@@ -27,7 +27,11 @@ This problem involves warping a flat image to appear as if it is the projection 
 
 4. The program will load an example image, warp it onto a cylindrical projection, and display the result.
 
-## Sample Output
+## Sample Input and Output
+
+### Input
+![Input_Image](https://github.com/Sree0211/Warping-Image/blob/main/images/190607_wolves_full.jpg)
+### Output
 
 ![Output Image](https://github.com/Sree0211/Warping-Image/blob/main/output/wolves2.jpg)
 
