@@ -1,3 +1,0 @@
-/Users/sreenathswaminathan/Desktop/Uni-Docs/Autonomous fahren kurs/CV Project/Warping-Image/build/CMakeFiles/bendImage.dir
-/Users/sreenathswaminathan/Desktop/Uni-Docs/Autonomous fahren kurs/CV Project/Warping-Image/build/CMakeFiles/edit_cache.dir
-/Users/sreenathswaminathan/Desktop/Uni-Docs/Autonomous fahren kurs/CV Project/Warping-Image/build/CMakeFiles/rebuild_cache.dir
